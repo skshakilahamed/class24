@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.main-div{
+    height: auto;
+    width: 1024px;
+    margin: auto;
+    border: 0;
+}
+.menu{}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.menu ul li a{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(212, 206, 206);
+    display: inline-block;
+    padding: 10px;
+}
+   /* heder */
+
+.heder{
+    height: 150px;
+    /* width: 100%; */
+    text-align: center;
+    background-color: rgb(216, 209, 209);
+    margin: 20px;
+}
+.heder h2{
+    color: red;
+    padding: 20px;
+}
+.heder p{
+    color: #000;
+    padding: 10px 20px;
+}
+/* slider */
+.slider{
+    height: 250px;
+}
+.banner img{
+    height: 350px;
+    width: 30%;
+    float: left;
+}
+.mr{
+    background: rgb(202, 199, 199);
+    float: right;
+    width: 70%;
+}
+.mr h2{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+}
+
+.conten{
+    float: right;
+    width: 50%;
+    margin: 10px;
+}
+.me{
+    color: red;
+    font-weight: bold;
+}
+p{
+    color: #000;
+    margin: 5px 0px;
+}
+span{
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+/*    batton */
+.batton{
+    text-align: center;
+    margin: 20px;
+    
+    
+}
+.batton h1{
+    display: inline-block;
+    background-color: rgb(231, 99, 99);
+    padding: 15px;
+    border: 1px solid #000;
+}
+/*    footer-menu    */
+.footer-menu{
+    height: 180px;
+    width: 100%;
+}
+.foter1{
+    height: 130px;
+    width: 31%;
+    background-color: rgb(221, 212, 212);
+    float: left;
+    margin-left: 15px;
+}
+.foter1 h2{
+    text-align: center;
+    padding: 5px;
+}
+.foter1 p{
+    text-align: center;
+}
+/* botoomdiv */
+.bottomdiv{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(233, 218, 218);
+    /* margin: auto; */
+    margin-top: 10px;
+    border-top: 1px solid #000;
+    display: inline-block;
+}
+.bottomdiv h3{
+    text-align: center;
+}
+.bottomdiv p{
+    text-align: center;
+}
